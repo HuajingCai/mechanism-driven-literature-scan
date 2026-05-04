@@ -44,9 +44,21 @@ Originally designed for:
 
 But it works for any research area with minimal modification.
 
----
+### Recommended Settings
 
+- Frequency: once per day (e.g., morning)
+- Output format: DOCX
+- Ensure access to:
+  - paper collection tools (PubMed / bioRxiv / medRxiv)
+  - file system (for report generation)
+  - optional email sending capability
+
+### Stability Tips
+
+- Avoid modifying the prompt during scheduled runs
+- Ensure required tools/scripts are accessible before execution
+- 
 ## Notes
 - This is just a prompt, not a full software tool  
-- Works best when combined with automation  
+- If using a chat-based automation interface, keeping the task pinned or active may reduce unexpected interruptions.
 - Output quality depends on the model and tools available  
